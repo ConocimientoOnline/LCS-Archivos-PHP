@@ -1,0 +1,238 @@
+body{
+    background: #eaeaea;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .content{
+    width: 460px;
+    height: auto;
+    content: '';
+    background-color: white;
+    border: 2px solid #eaeaea;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: -3px 10px 24px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px 10px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 10px 24px -4px rgba(0,0,0,0.75);
+}
+
+body .content form .elemento{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body .content form .h64{
+    height: 64px !important;
+}
+
+body .content form .elemento label{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+body .content form .elemento label i{
+    width: 32px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 24px;
+    color: #000;
+    margin-left: auto;
+}
+
+body .content form .elemento .hidde{
+    display: none !important;
+}
+
+body .content form .elemento input{
+    width: 100%;
+    height: 32px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body .content form .elemento select{
+    width: 100%;
+    height: 32px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body .content form .mg-top{
+    margin-top: 8px;
+}
+
+body .content form .display-flex-row{
+    flex-direction: row;
+}
+
+body .content form .elemento .mg-left{
+    margin-left: 8px;
+}
+
+body .content form .elemento button{
+    width: auto;
+    min-width: 100px;
+    height: 32px;
+    padding: 4px 12px 4px 12px;
+    margin-left: auto;
+}
+
+body .hidde {
+    display: none !important;
+}
+
+body .nueva-carpeta{
+    width: 100vw;
+    height: 100vh;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 20;
+}
+
+body .nueva-carpeta form{
+    width: 460px;
+    height: auto;
+    background-color: white;
+    content: '';
+    padding: 20px;
+    border: 2px solid #eaeaea;
+    border-radius: 4px;
+}
+
+body .nueva-carpeta form .elemento{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body .nueva-carpeta form .mg-top{
+    margin-top: 8px;
+}
+
+body .nueva-carpeta form .display-flex-row{
+    flex-direction: row;
+}
+
+body .nueva-carpeta form .elemento .mg-left{
+    margin-left: 8px;
+}
+
+body .nueva-carpeta form .elemento label{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+body .nueva-carpeta form .elemento input{
+    width: 100%;
+    height: 32px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body .nueva-carpeta form .elemento select{
+    width: 100%;
+    height: 32px;
+    margin: 0 auto;
+    padding: 0px;
+}
+body .nueva-carpeta form .elemento button{
+    width: 120px;
+    height: 32px;
+    margin-left: auto;
+    padding: 0px;
+}
+
+body .popup{
+    width: 100vw;
+    height: 100vh;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+}
+
+body .popup .info{
+    width: 460px;
+    height: 64px;
+    background-color: white;
+    content: '';
+    border-radius: 4px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 4px;
+    box-shadow: -3px 10px 24px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px 10px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 10px 24px -4px rgba(0,0,0,0.75);
+}
+
+body .popup .info .icono{
+    width: 64px;
+    height: 64px;
+    background-color: #1d1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+body .popup .info .icono i{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+body .popup .info .txt{
+    width: calc(100% - 84px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
