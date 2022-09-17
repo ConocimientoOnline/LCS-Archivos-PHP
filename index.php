@@ -35,12 +35,6 @@
         $fileNameCmps = explode(".", $fileName);
         $fileExtension = strtolower(end($fileNameCmps));
 
-        echo $fileTmpPath;
-        echo $fileName;
-        echo $fileSize;
-        echo $fileType;
-        echo $fileExtension;
-
         //Le damos un nombre nuevo al archivo
         $newFileName = md5(time() . $fileName) . '.' . $fileExtension;
 
