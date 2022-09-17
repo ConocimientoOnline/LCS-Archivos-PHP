@@ -1,6 +1,6 @@
 <?php
 
-    //Clase Login
+    //Clase Crear Directorio
     Class CrearDirectorio{
         //Variables
         protected $directorio = '';
@@ -10,7 +10,7 @@
             $this->directorio = $directorio;
         }
 
-        //Función de inicio de sesión
+        //Función crear
         function crear(){
             //Comprobamos que el directorio no exista
             if(!is_dir($this->directorio)){

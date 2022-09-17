@@ -1,13 +1,13 @@
 <?php
 
-    //Clase Login
+    //Clase ListarDirectorios
     Class ListarDirectorios{
         //Método constructor
         public function __construct(){
 
         }
 
-        //Función de inicio de sesión
+        //Función listar_devolver
         function listar_devolver(string $directorios_ls){
             //Separamos los directorios
             $directorios_ok = array();
